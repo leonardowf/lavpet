@@ -97,7 +97,7 @@ header {
 ==================================*/
 
 #home {
-    background: url(asset-path('home.jpg')) no-repeat center center;
+    background: url(asset-path('')) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -268,11 +268,10 @@ line-height: 35px;
 
 #email-subscribe .form-control
 {
-display:inline;
-height:50px;
-font-size:20px;
-margin-right:20px;
-width:60%;
+  display:inline;
+  height:50px;
+  font-size:20px;
+  margin-bottom: 10px;
 }
 
 #email-subscribe .btn-subscribe
@@ -290,7 +289,7 @@ margin-top:-10px;
 ==================================*/
 
    #contact {
-    background: url(asset-path('contact.jpg')) no-repeat center center;
+    background: url(../../../../../Downloads/lave_love%202/assets/img/contact.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;

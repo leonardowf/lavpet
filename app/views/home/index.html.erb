@@ -117,10 +117,41 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
-        <form action="subscribe.php" method="post" id="postcontent">
-          <input type="email" name="email" class="form-control" placeholder="Enter Your E-mail Address..." required />
-          <button type="submit" class="btn btn-subscribe"  >Notify Me !</button>
-        </form>
+
+        <%= form_for(@order, class: 'form-horizontal') do |f| %>
+            <div class="form-group">
+              <%= f.label :address, class: 'col-sm-2 control-label' %>
+              <div class="col-sm-10">
+                <%= f.text_field :address, class: 'form-control'  %>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <%= f.label :phone, class: 'col-sm-2 control-label' %>
+              <div class="col-sm-10">
+                <%= f.text_field :phone, class: 'form-control'  %>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <%= f.label :name, class: 'col-sm-2 control-label' %>
+              <div class="col-sm-10">
+                <%= f.text_field :name, class: 'form-control'  %>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <%= f.label :description, class: 'col-sm-2 control-label' %>
+              <div class="col-sm-10">
+                <%= f.text_field :description, class: 'form-control'  %>
+              </div>
+            </div>
+
+            <div class="actions">
+              <%= f.submit 'Agendar pedido!', class: 'btn btn-subscribe'  %>
+            </div>
+        <% end %>
+
       </div>
     </div>
   </div>
