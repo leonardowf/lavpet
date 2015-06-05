@@ -97,7 +97,7 @@ header {
 ==================================*/
 
 #home {
-    background: url(../../../../../Downloads/lave_love%202/assets/img/home.jpg) no-repeat center center;
+    background: url(asset-path('home.jpg')) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -290,7 +290,7 @@ margin-top:-10px;
 ==================================*/
 
    #contact {
-    background: url(../../../../../Downloads/lave_love%202/assets/img/contact.jpg) no-repeat center center;
+    background: url(asset-path('contact.jpg')) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
