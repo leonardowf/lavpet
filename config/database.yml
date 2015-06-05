@@ -52,3 +52,5 @@ production:
   database: lavpet_production
   username: lavpet
   password: <%= ENV['LAVPET_DATABASE_PASSWORD'] %>
+  socket: /tmp/mysql.sock
+
