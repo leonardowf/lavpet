@@ -17,7 +17,7 @@
     GOOGLE FONT
 ==================================*/
 
-//@import url(http://fonts.googleapis.com/css?family=Lato); /* FREE GOOGLE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato); /* FREE GOOGLE FONTS */
 
 /*================================
   GENERAL STYLES
@@ -27,6 +27,7 @@ body {
    font-family: 'Lato', sans-serif;
     line-height: 30px;
     font-size: 14px;
+  background-color: #48A5FF;
 }
 
 section {
@@ -47,6 +48,10 @@ section {
 line-height: 30px;
 font-size: 25px;
 color: #737373;
+}
+
+#email-subscribe {
+  background-color: white;
 }
 
 
@@ -143,7 +148,7 @@ padding:15px 40px 15px 40px;
 .btn-one {   
 background-color: transparent;
 border:5px solid #48A5FF; 
-color:#000;       
+color:#FFF;
   
 }
  .btn-one:hover {
