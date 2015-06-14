@@ -12,8 +12,7 @@
 <header id="header">
   <div class="container" >
     <div class="row"  >
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 logo-wrapper"> LOGO
-        <!-- <img src="assets/img/logo.png" alt="" /> -->
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 logo-wrapper">
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right" >
         <div class="menu-links scroll-me">
@@ -40,9 +39,8 @@
 
           </h4>
           <h4>
-            A Lave Love é uma lavanderia especializada em roupinhas do seu pet.
+            A Lave Love é uma <strong>lavanderia</strong> especializada em <strong>roupinhas e toalhas</strong> do seu <strong>pet</strong>.
           </h4>
-
           <a href="#contact" class="btn btn-custom btn-two" >Entre em contato</a>
           <a href="#email-subscribe" class="btn btn-custom btn-one" >Faça seu pedido agora mesmo</a>
         </div>
@@ -124,6 +122,8 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+        <p>Você pode pedir para <strong>lavar</strong> as roupas do seu <strong>pet</strong> pelo nosso formulário <strong>online.</strong></p>
+        <p>Prencha as informações e vamos retirar as roupas em seu <strong>domicílio.</strong></p>
 
         <%= form_for(@order, class: 'form-horizontal') do |f| %>
             <div class="form-group">
@@ -189,7 +189,7 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12 col-md-12 col-sm-12">
-        <%= Time.now.year %> - LaveLovPet.com.br
+        <%= Time.now.year %> - LaveLovePet.com.br
       </div>
     </div>
   </div>
